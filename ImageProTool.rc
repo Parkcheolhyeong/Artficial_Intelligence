@@ -177,6 +177,8 @@ BEGIN
         MENUITEM "Fixed Thresholding",          ID_CHAP_THRESHOLDING
         MENUITEM "GlobalThresholding",          ID_CHAP_GLOBALTHRESHOLDING
         MENUITEM "HistogramStretching",         ID_CHAP_HISTOGRAMSTRETCHING
+        MENUITEM "MeanFiltering",               ID_CHAP_MEANFILTERING
+        MENUITEM "MedianFiltering",             ID_CHAP_MEDIANFILTERING
     END
 END
 
