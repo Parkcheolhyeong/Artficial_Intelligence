@@ -12,10 +12,10 @@ class CDIB : public CObject
 public:
     CDIB();
     ~CDIB();
-    int iBitCount;
+    int iBitCount;	//픽셀 당 비트수;
     BITMAPINFO *GetBitmapInfoAddress()
         {return m_pBMI;}                        // ptr to bitmap info
-    BYTE *GetBitsAddress()
+    BYTE *GetBitsAddress()	// 2D 픽셀 포인터를 반환
         {return m_pBits;}                       // ptr to the bits
     RGBQUAD *GetClrTabAddress()
         {return (LPRGBQUAD)(((BYTE *)(m_pBMI)) 
@@ -32,6 +32,7 @@ public:
 public:
     BITMAPINFO *m_pBMI;         // pointer to BITMAPINFO struct
     BYTE *m_pBits;  // pointer to the bits
+					// 영상에서 2D 픽셀 접근용 포인터
 	
 	CPalette* m_pPalDib;		// pointer ot the palette;
 
