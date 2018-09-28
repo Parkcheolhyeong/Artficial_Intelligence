@@ -82,6 +82,7 @@ public:
 	afx_msg void OnHistogramstretching();
 	afx_msg void OnMeanfiltering();
 	afx_msg void OnMedianfiltering();
+	afx_msg void OnTwoAssignmentTwo();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

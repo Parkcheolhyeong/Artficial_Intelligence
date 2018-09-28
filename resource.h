@@ -11,6 +11,9 @@
 #define IDC_RADIO_BLUE                  1011
 #define IDC_RADIO_GRAY                  1012
 #define IDC_Histo                       1013
+#define IDC_STATICd                     1014
+#define text2                           1014
+#define text1                           1015
 #define ID_COLOR_QUANTIZER              32771
 #define ID_CANNY_EDGE                   32772
 #define ID_MEDIAN_FILTERING             32773
@@ -118,6 +121,10 @@
 #define ID_CHAP_HISTOGRAMSTRETCHING     32875
 #define ID_CHAP_MEANFILTERING           32876
 #define ID_CHAP_MEDIANFILTERING         32877
+#define ID_CHAP_ASSIGNMENT              32878
+#define ID_ASSIGNMENT_ONE               32879
+#define ID_ASSIGNMENT_TWO               32880
+#define ID_ASSIGNMENT_THREE             32881
 
 // Next default values for new objects
 // 
@@ -125,8 +132,8 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32878
-#define _APS_NEXT_CONTROL_VALUE         1014
+#define _APS_NEXT_COMMAND_VALUE         32882
+#define _APS_NEXT_CONTROL_VALUE         1016
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
