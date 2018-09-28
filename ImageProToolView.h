@@ -80,6 +80,8 @@ public:
 	afx_msg void OnChapThresholding();
 	afx_msg void OnGlobalthresholding();
 	afx_msg void OnHistogramstretching();
+	afx_msg void OnMeanfiltering();
+	afx_msg void OnMedianfiltering();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
