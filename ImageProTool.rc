@@ -181,8 +181,9 @@ BEGIN
         MENUITEM "MedianFiltering",             ID_CHAP_MEDIANFILTERING
         POPUP "ChapTwoAssignment"
         BEGIN
-            MENUITEM "one",                         ID_ASSIGNMENT_ONE
-            MENUITEM "two",                         ID_ASSIGNMENT_TWO
+            MENUITEM "oneStretching",               ID_ASSIGNMENT_ONE
+            MENUITEM "oneEqaul",                    ID_CHAPTWOASSIGNMENT_TWOEQAUL
+            MENUITEM "twoStretchingPercent",        ID_ASSIGNMENT_TWO
             MENUITEM "three",                       ID_ASSIGNMENT_THREE
         END
     END
@@ -240,8 +241,6 @@ BEGIN
     CONTROL         "Blue",IDC_RADIO_BLUE,"Button",BS_AUTORADIOBUTTON,133,145,29,10
     CONTROL         "Gray",IDC_RADIO_GRAY,"Button",BS_AUTORADIOBUTTON,179,144,31,10
     PUSHBUTTON      "Histo",IDC_Histo,233,142,50,14
-    LTEXT           "Static",text1,128,92,19,8
-    LTEXT           "Static",text2,169,92,19,8
 END
 
 

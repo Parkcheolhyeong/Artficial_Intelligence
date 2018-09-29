@@ -83,6 +83,9 @@ public:
 	afx_msg void OnMeanfiltering();
 	afx_msg void OnMedianfiltering();
 	afx_msg void OnTwoAssignmentTwo();
+	afx_msg void OnTwoAssignmentOneStretching();
+	afx_msg void OnTwoAssignmentThree();
+	afx_msg void OnTwoassignmentOneEqaul();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
