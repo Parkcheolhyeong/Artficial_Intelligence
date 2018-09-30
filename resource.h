@@ -126,6 +126,7 @@
 #define ID_ASSIGNMENT_TWO               32880
 #define ID_ASSIGNMENT_THREE             32881
 #define ID_CHAPTWOASSIGNMENT_TWOEQAUL   32882
+#define ID_CHAP_HISTOGRAMEQUAL          32883
 
 // Next default values for new objects
 // 
@@ -133,7 +134,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32883
+#define _APS_NEXT_COMMAND_VALUE         32884
 #define _APS_NEXT_CONTROL_VALUE         1016
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
