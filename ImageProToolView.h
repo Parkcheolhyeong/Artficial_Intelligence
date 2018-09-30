@@ -75,11 +75,6 @@ protected:
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 public:
-	afx_msg void OnRgbtogray();
-	afx_msg void OnHistogram();
-	afx_msg void OnChapThresholding();
-	afx_msg void OnGlobalthresholding();
-	afx_msg void OnHistogramstretching();
 	afx_msg void OnMeanfiltering();
 	afx_msg void OnMedianfiltering();
 	afx_msg void OnTwoAssignmentTwo();

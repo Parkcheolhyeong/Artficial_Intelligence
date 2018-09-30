@@ -172,20 +172,13 @@ BEGIN
     END
     POPUP "Chap.2"
     BEGIN
-        MENUITEM "RGBtoGray",                   ID_RGBTOGRAY
-        MENUITEM "Histogram",                   ID_HISTOGRAM
-        MENUITEM "Fixed Thresholding",          ID_CHAP_THRESHOLDING
-        MENUITEM "GlobalThresholding",          ID_CHAP_GLOBALTHRESHOLDING
-        MENUITEM "HistogramStretching",         ID_CHAP_HISTOGRAMSTRETCHING
-        MENUITEM "HistogramEqual",              ID_CHAP_HISTOGRAMEQUAL
-        MENUITEM "MeanFiltering",               ID_CHAP_MEANFILTERING
-        MENUITEM "MedianFiltering",             ID_CHAP_MEDIANFILTERING
         POPUP "ChapTwoAssignment"
         BEGIN
             MENUITEM "oneStretching",               ID_ASSIGNMENT_ONE
             MENUITEM "oneEqaul",                    ID_CHAPTWOASSIGNMENT_TWOEQAUL
             MENUITEM "twoStretchingPercent",        ID_ASSIGNMENT_TWO
-            MENUITEM "three",                       ID_ASSIGNMENT_THREE
+            MENUITEM "MeanFiltering",               ID_CHAP_MEANFILTERING
+            MENUITEM "MedianFiltering",             ID_CHAP_MEDIANFILTERING
         END
     END
 END
