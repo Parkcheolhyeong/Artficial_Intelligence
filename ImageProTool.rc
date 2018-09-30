@@ -172,6 +172,7 @@ BEGIN
     END
     POPUP "Chap.2"
     BEGIN
+        MENUITEM "Histogram",                   ID_CHAP_HISTOGRAM32884
         POPUP "ChapTwoAssignment"
         BEGIN
             MENUITEM "oneStretching",               ID_ASSIGNMENT_ONE
