@@ -1,7 +1,7 @@
 // dib.h : header file
 //
 // CDIB class
-//
+//헤더파일
 
 #ifndef __DIB__
 #define __DIB__
