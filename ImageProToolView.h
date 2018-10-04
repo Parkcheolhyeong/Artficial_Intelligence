@@ -86,6 +86,11 @@ public:
 	afx_msg void OnTwoAssignmentOneStretching();
 	afx_msg void OnTwoAssignmentThree();
 	afx_msg void OnTwoassignmentOneEqaul();
+	afx_msg void OnSobel();
+	afx_msg void OnNearestscaling();
+	afx_msg void OnBinarydilation();
+	afx_msg void OnRotation();
+	afx_msg void OnBinaryerosion();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

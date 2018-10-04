@@ -186,6 +186,11 @@ BEGIN
             MENUITEM "twoStretchingPercent",        ID_ASSIGNMENT_TWO
             MENUITEM "three",                       ID_ASSIGNMENT_THREE
         END
+        MENUITEM "Sobel",                       ID_CHAP_SOBEL
+        MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING
+        MENUITEM "Rotation",                    ID_CHAP_ROTATION
+        MENUITEM "BinaryDilation",              ID_CHAP_BINARYDILATION
+        MENUITEM "BinaryErosion",               ID_CHAP_BINARYEROSION
     END
 END
 
