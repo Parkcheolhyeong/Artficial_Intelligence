@@ -191,6 +191,7 @@ BEGIN
         MENUITEM "Rotation",                    ID_CHAP_ROTATION
         MENUITEM "BinaryDilation",              ID_CHAP_BINARYDILATION
         MENUITEM "BinaryErosion",               ID_CHAP_BINARYEROSION
+        MENUITEM "ConnectedLabeling",           ID_CHAP_CONNECTEDLABELING
     END
 END
 

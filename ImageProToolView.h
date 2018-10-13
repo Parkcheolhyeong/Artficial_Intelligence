@@ -91,6 +91,8 @@ public:
 	afx_msg void OnBinarydilation();
 	afx_msg void OnRotation();
 	afx_msg void OnBinaryerosion();
+	afx_msg void OnChapShape();
+	afx_msg void OnConnectedlabeling();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
