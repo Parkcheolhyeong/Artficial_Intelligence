@@ -173,13 +173,12 @@ BEGIN
     POPUP "Chap.2"
     BEGIN
         MENUITEM "Histogram",                   ID_CHAP_HISTOGRAM32884
-        POPUP "ChapTwoAssignment"
+        POPUP "Chap3,4_Homework"
         BEGIN
-            MENUITEM "oneStretching",               ID_ASSIGNMENT_ONE
-            MENUITEM "oneEqaul",                    ID_CHAPTWOASSIGNMENT_TWOEQAUL
-            MENUITEM "twoStretchingPercent",        ID_ASSIGNMENT_TWO
-            MENUITEM "MeanFiltering",               ID_CHAP_MEANFILTERING
-            MENUITEM "MedianFiltering",             ID_CHAP_MEDIANFILTERING
+            MENUITEM "3_2",                         ID_CHAP3_3
+            MENUITEM "3_3",                         ID_CHAP3_4
+            MENUITEM "4_1",                         ID_CHAP3_5
+            MENUITEM "4_2",                         ID_CHAP3_6
         END
     END
 END

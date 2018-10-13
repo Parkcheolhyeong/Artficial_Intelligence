@@ -83,6 +83,7 @@ public:
 	afx_msg void OnTwoassignmentOneEqaul();
 	afx_msg void OnHistogramequal();
 	afx_msg void OnHistogram();
+	afx_msg void On3_3();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
