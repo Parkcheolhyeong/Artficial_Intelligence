@@ -75,15 +75,10 @@ protected:
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 public:
-	afx_msg void OnMeanfiltering();
-	afx_msg void OnMedianfiltering();
-	afx_msg void OnTwoAssignmentTwo();
-	afx_msg void OnTwoAssignmentOneStretching();
-	afx_msg void OnTwoAssignmentThree();
-	afx_msg void OnTwoassignmentOneEqaul();
-	afx_msg void OnHistogramequal();
 	afx_msg void OnHistogram();
 	afx_msg void On3_3();
+	afx_msg void On3_2();
+	afx_msg void On4_1();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
