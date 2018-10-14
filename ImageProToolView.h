@@ -79,6 +79,9 @@ public:
 	afx_msg void On3_3();
 	afx_msg void On3_2();
 	afx_msg void On4_1();
+	afx_msg void OnSobel();
+	void dilation(RGBptr** ptr1, BYTE** temp_image, int width, int height);
+	void erosion(RGBptr** ptr1, BYTE** temp_image, int width, int height);
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

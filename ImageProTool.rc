@@ -180,6 +180,7 @@ BEGIN
             MENUITEM "4_1",                         ID_CHAP3_5
             MENUITEM "4_2",                         ID_CHAP3_6
         END
+        MENUITEM "Sobel",                       ID_CHAP_SOBEL
     END
 END
 
