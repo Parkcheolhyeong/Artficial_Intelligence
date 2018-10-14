@@ -84,8 +84,10 @@ public:
 	afx_msg void On4_2();
 	void OnMedianfiltering();
 	void OnGlobalthresholding();
-	int OnErosion();
+	void OnErosion();
 	void OnNearestscaling();
+	void OnConnectedlabeling();
+	void OnUpdate();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
