@@ -192,6 +192,11 @@ BEGIN
         MENUITEM "BinaryDilation",              ID_CHAP_BINARYDILATION
         MENUITEM "BinaryErosion",               ID_CHAP_BINARYEROSION
         MENUITEM "ConnectedLabeling",           ID_CHAP_CONNECTEDLABELING
+        MENUITEM "OnInvariantMoment",           ID_CHAP_ONINVARIANTMOMENT
+    END
+    POPUP "Chap.6"
+    BEGIN
+        MENUITEM "K-means",                     ID_CHAP_K
     END
 END
 

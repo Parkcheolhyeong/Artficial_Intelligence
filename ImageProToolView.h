@@ -32,6 +32,8 @@ public:
 	void Seperate_RGB(BYTE* , RGBptr** );
 	void SetRGBptr(BYTE* , RGBptr** ,int , int);
 	int Thresholding_Update(int height, int width, int* Y, int* B, int T);
+	void K_Mean_Clustering(BYTE** image, int *ME, int K, int T, int width, int height);
+
 	template<typename T> 
 	inline void swap(T& lha, T& rha)
 	{
@@ -93,6 +95,8 @@ public:
 	afx_msg void OnBinaryerosion();
 	afx_msg void OnChapShape();
 	afx_msg void OnConnectedlabeling();
+	afx_msg void Oninvariantmoment();
+	afx_msg void OnKmeans();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
