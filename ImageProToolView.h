@@ -31,7 +31,6 @@ public:
   
 	void Seperate_RGB(BYTE* , RGBptr** );
 	void SetRGBptr(BYTE* , RGBptr** ,int , int);
-	int Thresholding_Update(int height, int width, int* Y, int* B, int T);
 	template<typename T> 
 	inline void swap(T& lha, T& rha)
 	{
@@ -76,18 +75,7 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnHistogram();
-	afx_msg void On3_3();
-	afx_msg void On3_2();
-	afx_msg void On4_1();
-	void dilation(RGBptr** ptr1, BYTE** temp_image, int width, int height);
-	void erosion(RGBptr** ptr1, BYTE** temp_image, int width, int height);
-	afx_msg void On4_2();
-	void OnMedianfiltering();
-	void OnGlobalthresholding();
-	void OnErosion();
-	void OnNearestscaling();
-	void OnConnectedlabeling();
-	void OnUpdate();
+
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
