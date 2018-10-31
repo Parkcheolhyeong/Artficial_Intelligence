@@ -76,6 +76,10 @@ protected:
 public:
 	afx_msg void OnHistogram();
 
+	double* invariantMomento(int **image, int width, int height, int counts, double count, double CenX, double CenY);
+	afx_msg void OnIMoment();
+	afx_msg void OnThreshold();
+	afx_msg void OnConnectedlabeling();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
