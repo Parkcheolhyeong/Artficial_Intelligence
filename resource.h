@@ -134,6 +134,8 @@
 #define ID_CHAP3_5                      32888
 #define ID_CHAP3_6                      32889
 #define ID_CHAP_SOBEL                   32890
+#define ID_CHAP_ML                      32891
+#define ID_CHAP_MAP                     32892
 
 // Next default values for new objects
 // 
@@ -141,7 +143,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32891
+#define _APS_NEXT_COMMAND_VALUE         32893
 #define _APS_NEXT_CONTROL_VALUE         1016
 #define _APS_NEXT_SYMED_VALUE           101
 #endif

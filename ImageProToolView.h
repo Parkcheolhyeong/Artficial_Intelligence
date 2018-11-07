@@ -76,6 +76,8 @@ protected:
 public:
 	afx_msg void OnHistogram();
 
+	afx_msg void OnMl();
+	afx_msg void OnMap();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
