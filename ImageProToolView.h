@@ -78,6 +78,8 @@ public:
 
 	afx_msg void OnMl();
 	afx_msg void OnMap();
+	afx_msg void OnChapChangetext();
+	afx_msg void OnChapTest();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

@@ -170,11 +170,14 @@ BEGIN
         MENUITEM "도구 모음(&T)",                   ID_VIEW_TOOLBAR
         MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
     END
-    POPUP "Chap.7"
+    POPUP "Chap.8"
     BEGIN
         MENUITEM "Histogram",                   ID_CHAP_HISTOGRAM32884
         MENUITEM "ML",                          ID_CHAP_ML
         MENUITEM "MAP",                         ID_CHAP_MAP
+        MENUITEM "Puzzy",                       ID_CHAP_PUZZY
+        MENUITEM "ChangeText",                  ID_CHAP_CHANGETEXT
+        MENUITEM "Test",                        ID_CHAP_TEST
     END
 END
 
