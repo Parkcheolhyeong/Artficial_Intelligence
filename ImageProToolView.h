@@ -76,6 +76,19 @@ protected:
 public:
 	afx_msg void OnHistogram();
 
+	afx_msg void OnTest();
+	afx_msg void OnTrain();
+	void trainSet(int k);
+	afx_msg void OnTrainmode0();
+	afx_msg void OnTrainmode1();
+	afx_msg void OnTrainmode2();
+	afx_msg void OnTrainmode4();
+	afx_msg void OnTrainmode5();
+	afx_msg void OnTrainmode6();
+	afx_msg void OnTrainmode7();
+	afx_msg void OnTrainmode8();
+	afx_msg void OnTrainmode9();
+	afx_msg void OnTrainmode3();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

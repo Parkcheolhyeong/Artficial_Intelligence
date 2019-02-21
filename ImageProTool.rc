@@ -170,15 +170,22 @@ BEGIN
         MENUITEM "도구 모음(&T)",                   ID_VIEW_TOOLBAR
         MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
     END
-    POPUP "Chap.2"
+    POPUP "TermProject"
     BEGIN
         MENUITEM "Histogram",                   ID_CHAP_HISTOGRAM32884
-        POPUP "Chap3,4_Homework"
+        MENUITEM "Test",                        ID_TERMPROJECT_TEST
+        POPUP "TrainMode"
         BEGIN
-            MENUITEM "3_2",                         ID_CHAP3_3
-            MENUITEM "3_3",                         ID_CHAP3_4
-            MENUITEM "4_1",                         ID_CHAP3_5
-            MENUITEM "4_2",                         ID_CHAP3_6
+            MENUITEM "0",                           ID_TRAINMODE_0
+            MENUITEM "1",                           ID_TRAINMODE_1
+            MENUITEM "2",                           ID_TRAINMODE_2
+            MENUITEM "3",                           ID_TRAINMODE_3
+            MENUITEM "4",                           ID_TRAINMODE_4
+            MENUITEM "5",                           ID_TRAINMODE_5
+            MENUITEM "6",                           ID_TRAINMODE_6
+            MENUITEM "7",                           ID_TRAINMODE_7
+            MENUITEM "8",                           ID_TRAINMODE_8
+            MENUITEM "9",                           ID_TRAINMODE_9
         END
     END
 END

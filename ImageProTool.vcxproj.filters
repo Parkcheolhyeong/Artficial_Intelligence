@@ -39,6 +39,9 @@
     <ClCompile Include="Histogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NeuralNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ImageProTool.rc">
@@ -71,6 +74,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

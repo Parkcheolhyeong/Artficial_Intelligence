@@ -14,7 +14,6 @@
     <ProjectGuid>{CDB768E4-606A-4E16-A851-6628C55EF2B6}</ProjectGuid>
     <RootNamespace>ImageProTool</RootNamespace>
     <Keyword>MFCProj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -150,6 +149,7 @@
     <ClCompile Include="ImageProToolDoc.cpp" />
     <ClCompile Include="ImageProToolView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NeuralNet.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -166,6 +166,7 @@
     <ClInclude Include="ImageProToolDoc.h" />
     <ClInclude Include="ImageProToolView.h" />
     <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="StdAfx.h" />
   </ItemGroup>

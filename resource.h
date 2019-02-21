@@ -134,6 +134,19 @@
 #define ID_CHAP3_5                      32888
 #define ID_CHAP3_6                      32889
 #define ID_CHAP_SOBEL                   32890
+#define ID_TERMPROJECT_TRAIN            32891
+#define ID_TERMPROJECT_TEST             32892
+#define ID_TERMPROJECT_TRAINMODE        32893
+#define ID_TRAINMODE_1                  32894
+#define ID_TRAINMODE_2                  32895
+#define ID_TRAINMODE_3                  32896
+#define ID_TRAINMODE_4                  32897
+#define ID_TRAINMODE_5                  32898
+#define ID_TRAINMODE_6                  32899
+#define ID_TRAINMODE_7                  32900
+#define ID_TRAINMODE_8                  32901
+#define ID_TRAINMODE_9                  32902
+#define ID_TRAINMODE_0                  32903
 
 // Next default values for new objects
 // 
@@ -141,7 +154,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32891
+#define _APS_NEXT_COMMAND_VALUE         32904
 #define _APS_NEXT_CONTROL_VALUE         1016
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
